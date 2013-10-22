@@ -213,6 +213,11 @@ jQuery(document).ready(function() {
 			window.scrollTo(0,0);
 			jQuery("#project-page").fadeIn(750);
 		});
+		if(jQuery(window).width()<767){	
+			jQuery('#explore').animate({opacity: '1', 'margin-top': '2em'}, 1000);
+				} else {
+			jQuery('#explore').animate({opacity: '1', 'margin-top': '4em'}, 1000);
+		}
 	    jQuery('#project').load(curWork+".html");
 		jQuery("#previous-project-name").load("work-"+previousWork+".html #project-title");
 		jQuery("#next-project-name").load("work-"+nextWork+".html #project-title");
