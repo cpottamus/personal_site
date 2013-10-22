@@ -328,6 +328,10 @@ footer hr{margin:0; margin-bottom:2em;border-bottom:1px solid #cccccc;}
 #next-project,#previous-project,#close-project{margin-top: 0.5em;width:2em; height:2em;background-size: 2em;background-repeat:no-repeat;cursor:pointer;}
 
 #project-header img{display:block;width:100%;} 
+#project-header #explore {opacity:0;margin-top: 0em;}
+#project-header #explore a {text-decoration: none;}
+#project-header #explore a i{font-size:6em;margin:0 auto; color:white; cursor:pointer; color:white;-webkit-transition: all 0.3s ease-in-out;-moz-transition: all 0.3s ease-in-out;-o-transition: all 0.3s ease-in-out;transition: all 0.3s ease-in-out;}
+#project-header .touch #explore a i:hover,.no-touch #explore a i:hover{color:#4E9DF4;}
 
 #next-project{float:right;}
 #close-project{text-align: center;}
